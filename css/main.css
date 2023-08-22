@@ -679,7 +679,7 @@ th {
     padding: 15px!important;
 }
 
-td {
+#dataset-table td {
     padding: 10px!important;
     font-size: medium;
     vertical-align: middle!important;
@@ -689,6 +689,24 @@ audio {
     margin: 7px;
 }
 
+#musicqa-samples td {
+    padding: 20px!important;
+    font-size: medium;
+}
+
+/*=========================================
+	Features
+==========================================*/
+
+.modelinfo {
+    background-color: #f4f7f9;
+}
+
+figcaption {
+    margin-top: 20px;
+    font-size: medium;
+    font-weight: bold;
+}
 
 /*=========================================
 	Contact Us
