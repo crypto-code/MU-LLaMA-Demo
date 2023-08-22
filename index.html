@@ -173,7 +173,8 @@
                             <h3>MusicQA Dataset</h3>
                             <p>
                                 We propose a systematic approach for creating the music question answering
-                                dataset, crucial for training the MU-LLaMA model
+                                dataset, crucial for training the MU-LLaMA model,
+                                from existing music captioning and tagging datasets
                             </p>
                         </div>
                     </div>
@@ -219,9 +220,16 @@
                 </div>
 
                 <div class="sec-sub-title text-center">
-                    <p>
+                    <p class="mb50">
                         We use MosaicML's MPT-7B-Chat Model <a href="https://huggingface.co/mosaicml/mpt-7b-chat"><i class="fa fa-rocket" style="color: gray"></i></a>
                         to generate our MusicQA dataset.
+                    </p>
+                    <p>
+                        <i class="fa fa-tag fa-lg"></i> Tags or Captions &emsp;
+                        <i class="fa fa-arrow-right fa-lg"></i> &emsp;
+                        <i class="fa fa-rocket fa-lg"></i>  MPT-7B Model &emsp;
+                        <i class="fa fa-arrow-right fa-lg"></i> &emsp;
+                        <i class="fa fa-question fa-lg"></i> QA Pairs
                     </p>
                 </div>
 
@@ -525,7 +533,8 @@
 
                 <div class="sec-sub-title text-center">
                     <p>
-                        Below are a few samples of Question Answer pairs from our dataset.<br>
+                        Below are a few samples of Question Answer pairs from our MusicQA dataset<br>
+                        generated using captions/tags from existing music captioning and tagging datasets.<br>
                         More samples can be found on our dataset page
                         <a style="color: rgba(0, 0, 0, 1.0);" href="https://huggingface.co/datasets/mu-llama/MusicQA"><i class="fa fa-database"></i></a>.
                     </p>
