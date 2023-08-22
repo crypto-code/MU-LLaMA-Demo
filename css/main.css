@@ -664,6 +664,33 @@ label.error {
 
 
 /*=========================================
+	QA Samples
+==========================================*/
+
+table, tr {
+    text-align: center;
+    vertical-align: middle!important;
+}
+
+th {
+    font-size: large;
+    text-align: center;
+    vertical-align: middle!important;
+    padding: 15px!important;
+}
+
+td {
+    padding: 10px!important;
+    font-size: medium;
+    vertical-align: middle!important;
+}
+
+audio {
+    margin: 7px;
+}
+
+
+/*=========================================
 	Contact Us
 ==========================================*/
 
