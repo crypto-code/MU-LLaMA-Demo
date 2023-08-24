@@ -56,7 +56,7 @@
         Fixed Navigation
         ==================================== -->
     <header id="navigation" class="navbar-fixed-top navbar">
-        <div class="container">
+        <div style="margin-right: 5%">
             <div class="navbar-header">
                 <!-- responsive nav button -->
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -81,7 +81,7 @@
                     <li><a href="#features">Contributions</a></li>
                     <li><a href="#datagen">MusicQA Dataset</a></li>
                     <li><a href="#modelinfo">MU-LLaMA Model</a></li>
-                    <li><a href="#modelcaptioning">T2M-Gen</a></li>
+                    <li><a href="#modelcaptioning">T2M-Gen Dataset</a></li>
                 </ul>
             </nav>
             <!-- /main nav -->
@@ -117,8 +117,8 @@
 
                         <ul class="social-links text-center">
                             <li><a href="https://github.com/crypto-code/MU-LLaMA"><i class="fa fa-github fa-2x"></i></a></li>
-                            <li><a href=""><i class="fa fa-paperclip fa-2x"></i></a></li>
-                            <li><a href=""><i class="fa fa-smile-o fa-2x"></i></a></li>
+                            <li><a href="https://arxiv.org/abs/2308.11276"><i class="fa fa-paperclip fa-2x"></i></a></li>
+                            <li><a href="https://huggingface.co/datasets/mu-llama/MusicQA"><i class="fa fa-smile-o fa-2x"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -218,7 +218,11 @@
             <div class="row">
                 <div class="sec-title text-center">
                     <h2>MusicQA Dataset Generation</h2>
-                    <div class="devider"><i class="fa fa-magic fa-lg"></i></div>
+                    <div class="devider">
+                        <a style="color: rgba(0, 0, 0, 1.0);" href="https://huggingface.co/mosaicml/mpt-7b-chat">
+                            <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-MPT--7B%20Chat%20Model-blue">
+                        </a>
+                    </div>
                 </div>
 
                 <div class="sec-sub-title text-center">
@@ -530,15 +534,17 @@
             <div class="row">
                 <div class="sec-title text-center">
                     <h2>MusicQA Dataset Samples</h2>
-                    <div class="devider"><i class="fa fa-database fa-lg"></i></div>
+                    <div class="devider">
+                        <a style="color: rgba(0, 0, 0, 1.0);" href="https://huggingface.co/datasets/mu-llama/MusicQA">
+                            <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-MusicQA%20Dataset-green">
+                        </a>
+                    </div>
                 </div>
 
                 <div class="sec-sub-title text-center">
                     <p>
                         Below are a few samples of Question Answer pairs from our MusicQA dataset<br>
                         generated using captions/tags from existing music captioning and tagging datasets.<br>
-                        More samples can be found on our dataset page
-                        <a style="color: rgba(0, 0, 0, 1.0);" href="https://huggingface.co/datasets/mu-llama/MusicQA"><i class="fa fa-database"></i></a>.
                     </p>
                 </div>
             </div>
@@ -621,7 +627,11 @@
             <div class="row">
                 <div class="sec-title text-center">
                     <h2>Music Understanding LLM (MU-LLaMA)</h2>
-                    <div class="devider"><i class="fa fa-rocket fa-lg"></i></div>
+                    <div class="devider">
+                        <a style="color: rgba(0, 0, 0, 1.0);" href="https://huggingface.co/mosaicml/mpt-7b-chat">
+                            <img src="https://img.shields.io/badge/%F0%9F%93%8E%20arXiv-Paper-red">
+                        </a>
+                    </div>
                 </div>
 
                 <div class="sec-sub-title text-center">
@@ -652,7 +662,11 @@
             <div class="row">
                 <div class="sec-title text-center">
                     <h2>Music Question Answering</h2>
-                    <div class="devider"><i class="fa fa-rocket fa-lg"></i></div>
+                    <div class="devider">
+                        <a style="color: rgba(0, 0, 0, 1.0);" href="https://github.com/crypto-code/MU-LLaMA">
+                            <img src="https://img.shields.io/badge/%F0%9F%96%A5%20GitHub-MU--LLaMA-white">
+                        </a>
+                    </div>
                 </div>
 
                 <div class="sec-sub-title text-center">
@@ -882,13 +896,17 @@
                         </audio>
                     </td>
                     <td>
-                        The music is slow and has a melancholic tone. The instruments used are a piano and a cello. The piano plays a melody while the cello provides a deep and rich bass line.
+                        The music is a fast-paced rock song with a strong beat and guitar riffs.
+                        The vocals are aggressive and energetic, with a strong emphasis on the lyrics.
+                        The drums are powerful and driving, providing a solid foundation for the rest of the music.
                     </td>
                     <td>
-                        The low quality recording features an arpeggiated acoustic guitar melody. It sounds mellow, soft and emotional.
+                        This song contains an acoustic drum playing a simple rock groove along with an e-bass.
+                        A e-guitar is playing a short melody panned to the right side of the speakers.
+                        Then a male voice starts singing in a higher key. This song may be playing live at a concert.
                     </td>
                     <td>
-                        The music is rich and full of resonant frequencies, with a guitar as the main instrument and a warm, full-bodied sound that is both rich and vibrant, with a clear and resonant timbre.
+                        The music is described as rich and full of resonant frequencies, which is a common characteristic of rock music.
                     </td>
                 </tr>
             </table>
