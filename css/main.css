@@ -694,6 +694,11 @@ audio {
     font-size: medium;
 }
 
+#musiccap-samples td {
+    padding: 20px!important;
+    font-size: medium;
+}
+
 /*=========================================
 	Features
 ==========================================*/
