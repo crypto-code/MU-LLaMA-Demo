@@ -5,9 +5,11 @@
 import { client } from "https://cdn.jsdelivr.net/npm/@gradio/client@0.1.4/dist/index.min.js";
 
 jQuery(window).load(function(){
-
 	$("#preloader").fadeOut("slow");
-
+    fetch("https://api.myip.com/",{
+        method: 'GET'}).then((response) => {
+            console.log(response.json());
+        });
 });
 
 
