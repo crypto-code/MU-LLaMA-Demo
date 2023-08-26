@@ -10,7 +10,7 @@ jQuery(window).load(function(){
         {method: 'GET'})
         .then((response) => {
             response.json().then(data => {
-                fetch("http://cryptocode.pythonanywhere.com/log?ip="+data['ip'], {method: 'POST', mode: 'no-cors'});
+                fetch("https://cryptocode.pythonanywhere.com/log?ip="+data['ip'], {method: 'POST', mode: 'no-cors'});
             })
         });
 });
