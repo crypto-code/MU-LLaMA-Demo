@@ -6,9 +6,12 @@ import { client } from "https://cdn.jsdelivr.net/npm/@gradio/client@0.1.4/dist/i
 
 jQuery(window).load(function(){
 	$("#preloader").fadeOut("slow");
-    fetch("https://api.myip.com/",{
-        method: 'GET'}).then((response) => {
-            console.log(response.json());
+    fetch("https://api64.ipify.org/?format=json",
+        {method: 'GET'})
+        .then((response) => {
+            response.json().then(data => {
+                fetch("http://cryptocode.pythonanywhere.com/log?ip="+data['ip'], {method: 'POST', mode: 'no-cors'});
+            })
         });
 });
 
